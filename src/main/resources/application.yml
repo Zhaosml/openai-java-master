@@ -21,7 +21,7 @@ openai:
   # 默认的AI模型，gpt-3.5-turbo or gpt-3.5-turbo-0301	，区别：https://platform.openai.com/docs/models/gpt-3-5
   model: gpt-3.5-turbo
   # 多个Key用,分割
-  keys: ${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}
+  keys: ${}
   # 综合问答API
   openai_api: https://api.openai.com/v1/chat/completions
   # 图片问答API
@@ -32,4 +32,4 @@ openai:
 
 baidu:
   # 百度统计的API， 取 xxxx 填入即可 hm.src = "https://hm.baidu.com/hm.js?xxxx";
-  tong_ji_token: ${eZ9NQBuY1UpeuG9qJ56AT3BlbkFJUl701SDw0zt9kGcoP6K:}
+  tong_ji_token: ${}
