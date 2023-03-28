@@ -28,7 +28,7 @@ jobs:
       - name: BuildDockerImage
         run: docker build . --file Dockerfile --tag twwch/action-ci:${{ github.ref_name	 }}
       - name: Publish to Docker Repository
-        uses: elgohr/Publish-Docker-Github-Action@master
+        uses: elgohr/Publish-Docker-Github-Action@v5
         with:
           name: dqjdda/openai-java:latest
           repository: dqjdda/openai-java
